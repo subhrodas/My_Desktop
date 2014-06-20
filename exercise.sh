@@ -4,7 +4,7 @@
 
 
 #rm delta.tx
-for i in {1..10}
+for i in {5..10}
 do 
   let j=i*i
   echo $i $j >> delta.txt
