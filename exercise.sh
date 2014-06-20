@@ -6,6 +6,6 @@
 #rm delta.tx
 for i in {1..10}
 do 
-  echo $i >> delta.txt
+  let j=i*i
+  echo $i $j >> delta.txt
 done
-
