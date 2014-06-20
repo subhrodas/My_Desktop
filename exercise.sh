@@ -4,10 +4,10 @@
 
 
 #rm delta.tx
-for i in {1..10}
+for i in {1..20}
 do 
   let j=i*i
   echo $i $j >> delta.txt
 done
 
-sleep 10
+#sleep 10
