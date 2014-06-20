@@ -4,7 +4,8 @@
 
 #rm delta.tx
 for i in {1..10}
-do 
-  echo $i >> delta.txt
+do
+  j=i+1 
+  echo $i $j >> delta.txt
 done
 
