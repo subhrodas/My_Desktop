@@ -10,5 +10,5 @@ do
   echo $i $j >> delta.txt
 done
 
-#sleep 10
+sleep 10
 Sleep 100
